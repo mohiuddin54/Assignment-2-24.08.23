@@ -128,6 +128,25 @@ color: #DC3545;
 }
 /* special style end here */
 
+/* gallery style start here */
+
+.gallery-title{
+    text-align: center;
+    margin-top: 40px;
+    color: #6C757D;
+}
+.gallery-span{
+    color: #DC3545;
+}
+.gallery-img img{
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+    box-shadow: 0 0 10px rgb(149, 149, 192);
+}
+
+
 /* order style start here */
 
 
