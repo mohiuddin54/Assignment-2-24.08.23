@@ -4,6 +4,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
     
 }
 .container{
@@ -105,7 +106,7 @@ color: #DC3545;
     margin-top: 30px;
     box-shadow: 0 0 10px rgb(149, 149, 192);
     text-align: center;
-    padding: 5px 10px; 
+    padding: 5px 20px; 
     border: solid 1px gray;
 }
 
@@ -128,6 +129,78 @@ color: #DC3545;
 }
 /* special style end here */
 
+/* popular style start here */
+
+
+.popular-title{
+    text-align: center;
+    margin-top: 80px;
+    color: #6C757D;
+}
+.popular-title span{
+    color: #DC3545;
+}
+.popular-img img{
+    width: 100%;
+}
+.popular-img h2{
+    color: #6C757D;
+}
+.popular-card{
+    box-shadow: 0 0 10px rgb(149, 149, 192);
+    
+    padding: 25px 10px;
+    text-align: center;
+}
+.popular-card h2{
+    color: #212529;
+}
+.rating a{
+    color: gold;
+}
+.popular-btn{
+    font-size: 25px;
+    padding: 10px 20px;
+    color: #212529;
+    
+}
+.popular-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+/* works style start here */
+
+.works-title{
+    text-align: center;
+    margin-top: 40px;
+    color: #8D757D;
+}
+.works-title span{
+    color: #DC3545;
+}
+.works-img{
+    display: flex;
+    text-align: center;
+    justify-content:space-between ;
+    margin-top: 40px;
+    padding: 0 100px;
+    color: #6C757D;
+}
+
+/* works style end here */
+
+
 /* gallery style start here */
 
 .gallery-title{
@@ -139,13 +212,13 @@ color: #DC3545;
     color: #DC3545;
 }
 .gallery-img img{
-    width: 25%;
+    width: 27%;
     margin-top: 20px;
     margin-left: 70px;
     
     box-shadow: 0 0 10px rgb(149, 149, 192);
 }
-
+/* gallery style end here */
 
 /* order style start here */
 
@@ -248,9 +321,6 @@ color: #DC3545;
     color: #fff;
     font-size: 10px;
 }
-
-
-
 
 
 /* footer style end here */
